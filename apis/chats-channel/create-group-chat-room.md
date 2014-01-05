@@ -4,7 +4,7 @@ h2 this is req
 
 code:
 
-     # JSON Schema
+<pre><code>    # JSON Schema
 create-a-group-chat-room-schema =
   type: 'object'
   additional-properties: false
@@ -26,4 +26,5 @@ create-a-group-chat-room-schema =
       type: 'string'
       required: true
 
+</code></pre>
 
