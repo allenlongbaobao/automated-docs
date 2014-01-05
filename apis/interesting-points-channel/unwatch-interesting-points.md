@@ -3,7 +3,8 @@
 h2 this is req
 
 code:
-    request-unwatch-interesting-points =
+
+     request-unwatch-interesting-points =
   ipids: ['ipid-1']
 
 
@@ -12,7 +13,8 @@ code:
 h2 this is req
 
 code:
-    response-unwatch-interesting-points =
+
+     response-unwatch-interesting-points =
   result: "success"
   errors: []
 
@@ -22,7 +24,8 @@ code:
 h2 this is req
 
 code:
-    unwatch-interesting-points-schema =
+
+     unwatch-interesting-points-schema =
   type: 'object'
   additional-properties: false
   properties:

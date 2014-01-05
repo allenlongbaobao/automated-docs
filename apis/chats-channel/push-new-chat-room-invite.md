@@ -3,7 +3,8 @@
 h2 this is req
 
 code:
-    response-push-new-chat-room-invite =
+
+     response-push-new-chat-room-invite =
   from:
     _id: 'uid-1'
     username: 'Shin'

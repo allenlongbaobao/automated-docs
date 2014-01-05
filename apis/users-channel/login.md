@@ -3,7 +3,8 @@
 h2 this is req
 
 code:
-    request-login =
+
+     request-login =
   email: 'bossonchan@gmail.com'
   password: 'complex password'
 
@@ -14,7 +15,8 @@ code:
 h2 this is req
 
 code:
-    response-login =
+
+     response-login =
   result: 'success'
   errors: []
   user:
@@ -112,7 +114,8 @@ code:
 h2 this is req
 
 code:
-    login-schema =
+
+     login-schema =
   type: 'object'
   additional-properties: false
   properties:

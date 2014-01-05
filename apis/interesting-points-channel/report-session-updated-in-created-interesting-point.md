@@ -3,7 +3,8 @@
 h2 this is req
 
 code:
-    request-report-session-updated-in-created-interesting-point =
+
+     request-report-session-updated-in-created-interesting-point =
   ipid: 'ipid-1'
 
 
@@ -12,7 +13,8 @@ code:
 h2 this is req
 
 code:
-    response-report-session-updated-in-created-interesting-point =
+
+     response-report-session-updated-in-created-interesting-point =
   result: "success"
   errors: []
 
@@ -22,7 +24,8 @@ code:
 h2 this is req
 
 code:
-    report-session-updated-in-created-interesting-point-schema =
+
+     report-session-updated-in-created-interesting-point-schema =
   type: 'object'
   additional-properties: false
   properties:

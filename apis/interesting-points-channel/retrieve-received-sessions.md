@@ -3,7 +3,8 @@
 h2 this is req
 
 code:
-    request-retrieve-received-sessions =
+
+     request-retrieve-received-sessions =
   from: 'uid-1'
   type: 'created'
   limit: 10
@@ -16,7 +17,8 @@ code:
 h2 this is req
 
 code:
-    response-retrieve-received-sessions =
+
+     response-retrieve-received-sessions =
   result: "success"
   errors: []
   interesting-point-sessions:
@@ -96,7 +98,8 @@ code:
 h2 this is req
 
 code:
-    retrieve-received-sessions-schema =
+
+     retrieve-received-sessions-schema =
   type: 'object'
   additional-properties: false
   properties:

@@ -3,7 +3,8 @@
 h2 this is req
 
 code:
-    # JSON Schema
+
+     # JSON Schema
 report-new-chat-room-invite-schema =
   type: 'object'
   additional-properties: false

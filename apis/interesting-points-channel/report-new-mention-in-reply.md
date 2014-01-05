@@ -3,7 +3,8 @@
 h2 this is req
 
 code:
-    request-report-new-mention-in-reply =
+
+     request-report-new-mention-in-reply =
   rid: 'rid-1'
 
 
@@ -12,7 +13,8 @@ code:
 h2 this is req
 
 code:
-    response-report-new-mention-in-reply =
+
+     response-report-new-mention-in-reply =
   result: "success"
   errors: []
 
@@ -22,7 +24,8 @@ code:
 h2 this is req
 
 code:
-    report-new-mention-in-reply-schema =
+
+     report-new-mention-in-reply-schema =
   type: 'object'
   additional-properties: false
   properties:

@@ -3,7 +3,8 @@
 h2 this is req
 
 code:
-    request-create-a-new-real-world-interesting-point =
+
+     request-create-a-new-real-world-interesting-point =
   created-interesting-point:
     type: 'real'
     title: '无法阻挡的@+'
@@ -45,7 +46,8 @@ code:
 h2 this is req
 
 code:
-    response-create-a-new-real-world-interesting-point =
+
+     response-create-a-new-real-world-interesting-point =
   result: 'success'
   errors: []
   created-interesing-point:
@@ -120,7 +122,8 @@ code:
 h2 this is req
 
 code:
-    create-a-new-real-world-interesting-point-schema =
+
+     create-a-new-real-world-interesting-point-schema =
   type: 'object'
   additional-properties: false
   properties:

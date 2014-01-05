@@ -3,7 +3,8 @@
 h2 this is req
 
 code:
-    request-send-circle-invite =
+
+     request-send-circle-invite =
   uids: ['uid-1', 'uid-2']
 
 
@@ -12,7 +13,8 @@ code:
 h2 this is req
 
 code:
-    response-send-circle-invite =
+
+     response-send-circle-invite =
   result: 'success'
   errors: []
 
@@ -22,7 +24,8 @@ code:
 h2 this is req
 
 code:
-    send-circle-invite-schema =
+
+     send-circle-invite-schema =
   type: 'object'
   additional-properties: false
   properties:

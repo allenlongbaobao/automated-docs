@@ -3,7 +3,8 @@
 h2 this is req
 
 code:
-    request-unwatch-locations =
+
+     request-unwatch-locations =
   lids: ['lid-1']
 
 
@@ -12,7 +13,8 @@ code:
 h2 this is req
 
 code:
-    response-unwatch-locations =
+
+     response-unwatch-locations =
   result: "success"
   errors: []
 
@@ -22,7 +24,8 @@ code:
 h2 this is req
 
 code:
-    unwatch-locations-schema =
+
+     unwatch-locations-schema =
   type: 'object'
   additional-properties: false
   properties:

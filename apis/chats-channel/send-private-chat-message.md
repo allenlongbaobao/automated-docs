@@ -3,7 +3,8 @@
 h2 this is req
 
 code:
-    send-new-chat-message-schema =
+
+     send-new-chat-message-schema =
   type: 'object'
   additional-properties: false
   properties:

@@ -3,7 +3,8 @@
 h2 this is req
 
 code:
-    request-move-to-location =
+
+     request-move-to-location =
   longitude: 123
   latitude: 123
   altitude: 123
@@ -14,7 +15,8 @@ code:
 h2 this is req
 
 code:
-    response-move-to-location =
+
+     response-move-to-location =
   result: "success"
   errors: []
 
@@ -24,7 +26,8 @@ code:
 h2 this is req
 
 code:
-    move-to-location-schema =
+
+     move-to-location-schema =
   type: 'object'
   additional-properties: false
   properties:

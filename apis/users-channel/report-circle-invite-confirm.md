@@ -3,7 +3,8 @@
 h2 this is req
 
 code:
-    request-report-circle-invite-confirm =
+
+     request-report-circle-invite-confirm =
   cid: 'cid-1'
 
 
@@ -12,7 +13,8 @@ code:
 h2 this is req
 
 code:
-    # 成功
+
+     # 成功
 response-report-circle-invite-confirm =
   result: 'success'
   errors: []
@@ -23,7 +25,8 @@ response-report-circle-invite-confirm =
 h2 this is req
 
 code:
-    report-circle-invite-confirm-schema =
+
+     report-circle-invite-confirm-schema =
   type: 'object'
   additional-properties: false
   properties:

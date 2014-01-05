@@ -3,7 +3,8 @@
 h2 this is req
 
 code:
-    request-update-chat-room-name =
+
+     request-update-chat-room-name =
   cid: 'cid-1'
   name: '更改后的名称'
 
@@ -13,7 +14,8 @@ code:
 h2 this is req
 
 code:
-    # 成功
+
+     # 成功
 response-update-chat-room-name =
   result: 'success'
   errors: []
@@ -25,7 +27,8 @@ response-update-chat-room-name =
 h2 this is req
 
 code:
-    request-update-chat-room-name-schema =
+
+     request-update-chat-room-name-schema =
   type: 'object'
   additional-properties: false
   properties:

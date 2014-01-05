@@ -3,7 +3,8 @@
 h2 this is req
 
 code:
-    request-move-friend-to-specific-list =
+
+     request-move-friend-to-specific-list =
   uid: 'uid-1'
   specific-list-name: '大学好友'
 
@@ -13,7 +14,8 @@ code:
 h2 this is req
 
 code:
-    response-move-friend-to-specific-list =
+
+     response-move-friend-to-specific-list =
   result: 'success'
   errors: []
 
@@ -24,7 +26,8 @@ code:
 h2 this is req
 
 code:
-    move-friend-to-specific-list-schema = 
+
+     move-friend-to-specific-list-schema = 
   type: 'object'
   additional-properties: false
   properties:

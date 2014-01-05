@@ -3,7 +3,8 @@
 h2 this is req
 
 code:
-    request-remove-tags =
+
+     request-remove-tags =
   ipid: 'ipid-1'
   tags: ['中大', 'SYSU']
 
@@ -13,7 +14,8 @@ code:
 h2 this is req
 
 code:
-    response-remove-tags =
+
+     response-remove-tags =
   result: "success"
   errors: []
 
@@ -23,7 +25,8 @@ code:
 h2 this is req
 
 code:
-    remove-tags-schema =
+
+     remove-tags-schema =
   type: 'object'
   additional-properties: false
   properties:

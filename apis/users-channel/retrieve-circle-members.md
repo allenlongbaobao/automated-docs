@@ -3,7 +3,8 @@
 h2 this is req
 
 code:
-    request-retrieve-circle-members =
+
+     request-retrieve-circle-members =
   cid: 'cid-1'
   offset: 1
   count: 10
@@ -14,7 +15,8 @@ code:
 h2 this is req
 
 code:
-    # 成功
+
+     # 成功
 response-retrieve-circle-members =
   result: 'success'
   errors: []
@@ -34,7 +36,8 @@ response-retrieve-circle-members =
 h2 this is req
 
 code:
-    retrieve-circle-members-schema = 
+
+     retrieve-circle-members-schema = 
   type: 'object'
   additional-properties: false
   properties:

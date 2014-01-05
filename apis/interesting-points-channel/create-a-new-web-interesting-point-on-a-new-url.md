@@ -3,7 +3,8 @@
 h2 this is req
 
 code:
-    request-create-a-new-web-interesting-point-on-a-new-url =
+
+     request-create-a-new-web-interesting-point-on-a-new-url =
   type: 'web' # web | real
   title: '测试在新url上发布的新兴趣点'
   content: '人类已经无法阻挡@+了' # 以后可以是HTML内容
@@ -46,7 +47,8 @@ code:
 h2 this is req
 
 code:
-    response-create-a-new-web-interesting-point-on-a-new-url =
+
+     response-create-a-new-web-interesting-point-on-a-new-url =
   result: 'success'
   errors: []
   created-location:
@@ -138,7 +140,8 @@ code:
 h2 this is req
 
 code:
-    create-a-new-web-interesting-point-on-a-new-url-schema =
+
+     create-a-new-web-interesting-point-on-a-new-url-schema =
   type: 'object'
   additional-properties: false
   properties:

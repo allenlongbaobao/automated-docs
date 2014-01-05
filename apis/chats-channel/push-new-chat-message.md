@@ -3,7 +3,8 @@
 h2 this is req
 
 code:
-    response-push-new-chat-message =
+
+     response-push-new-chat-message =
   _id: 'mid-1'
   type: 'chat-msg' # 聊天室类型
   push-type: 'personal-msg'

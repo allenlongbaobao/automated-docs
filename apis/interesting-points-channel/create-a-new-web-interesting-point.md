@@ -3,7 +3,8 @@
 h2 this is req
 
 code:
-    request-create-a-new-web-interesting-point =
+
+     request-create-a-new-web-interesting-point =
   type: 'web'
   title: '无法阻挡的@+'
   content: '人类已经无法阻挡@+了'
@@ -47,7 +48,8 @@ code:
 h2 this is req
 
 code:
-    response-create-a-new-web-interesting-point =
+
+     response-create-a-new-web-interesting-point =
   result: "success"
   errors: []
   created-interesting-point:
@@ -124,7 +126,8 @@ code:
 h2 this is req
 
 code:
-    create-a-new-web-interesting-point-schema =
+
+     create-a-new-web-interesting-point-schema =
   type: 'object'
   additional-properties: false
   properties:

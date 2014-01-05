@@ -3,7 +3,8 @@
 h2 this is req
 
 code:
-    request-answer-location-internality =
+
+     request-answer-location-internality =
   lid: 'lid-1'
   result: 'success'
   is-internal: false
@@ -14,7 +15,8 @@ code:
 h2 this is req
 
 code:
-    response-answer-location-internality =
+
+     response-answer-location-internality =
   result: "success"
   errors: []
 
@@ -24,7 +26,8 @@ code:
 h2 this is req
 
 code:
-    answer-location-internality-schema =
+
+     answer-location-internality-schema =
   type: 'object'
   additional-properties: false
   properties:

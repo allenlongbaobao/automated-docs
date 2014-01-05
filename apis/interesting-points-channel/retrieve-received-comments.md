@@ -3,7 +3,8 @@
 h2 this is req
 
 code:
-    request-retrieve-received-comments =
+
+     request-retrieve-received-comments =
   from: 'uid-1'
   type: 'watching'
   limit: 10
@@ -16,7 +17,8 @@ code:
 h2 this is req
 
 code:
-    response-retrieve-received-comments =
+
+     response-retrieve-received-comments =
   result: "success"
   errors: []
   comments:
@@ -64,7 +66,8 @@ code:
 h2 this is req
 
 code:
-    retrieve-received-comments-schema =
+
+     retrieve-received-comments-schema =
   type: 'object'
   additional-properties: false
   properties:

@@ -3,7 +3,8 @@
 h2 this is req
 
 code:
-    request-open-comment =
+
+     request-open-comment =
   cid: 'cid-1'
 
 
@@ -12,7 +13,8 @@ code:
 h2 this is req
 
 code:
-    response-open-comment =
+
+     response-open-comment =
   result: "success"
   errors: []
 
@@ -22,7 +24,8 @@ code:
 h2 this is req
 
 code:
-    open-comment-schema =
+
+     open-comment-schema =
   type: 'object'
   additional-properties: false
   properties:

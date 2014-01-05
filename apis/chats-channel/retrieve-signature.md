@@ -3,7 +3,8 @@
 h2 this is req
 
 code:
-    retrieve-signature = 
+
+     retrieve-signature = 
   cid: 'cid-1'
 
 
@@ -13,7 +14,8 @@ code:
 h2 this is req
 
 code:
-    # 成功
+
+     # 成功
 response-retrieve-signature =
   result: 'success'
   signature: 'weiki is a good boy!'
@@ -26,7 +28,8 @@ response-retrieve-signature =
 h2 this is req
 
 code:
-    retrieve-signature-schema = 
+
+     retrieve-signature-schema = 
   type: 'object'
   additional-properties: false
   properties:

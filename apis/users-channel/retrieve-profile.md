@@ -3,7 +3,8 @@
 h2 this is req
 
 code:
-    request-retrieve-profile =
+
+     request-retrieve-profile =
   uid: 'xxxxxx'
 
 
@@ -12,7 +13,8 @@ code:
 h2 this is req
 
 code:
-    response-retrieve-profile =
+
+     response-retrieve-profile =
   result: 'success'
   errors: []
   user:
@@ -29,7 +31,8 @@ code:
 h2 this is req
 
 code:
-    # JSON Schema
+
+     # JSON Schema
 retrieve-profile-schema =
   type: 'object'
   additional-properties: false

@@ -3,7 +3,8 @@
 h2 this is req
 
 code:
-    request-remove-interesting-point-sessions =
+
+     request-remove-interesting-point-sessions =
   ipsids: ['ipsid-1', 'ipsid-2']
 
 
@@ -12,7 +13,8 @@ code:
 h2 this is req
 
 code:
-    response-remove-interesting-point-sessions =
+
+     response-remove-interesting-point-sessions =
   result: "success"
   errors: []
 
@@ -22,7 +24,8 @@ code:
 h2 this is req
 
 code:
-    remove-interesting-point-sessions-schema =
+
+     remove-interesting-point-sessions-schema =
   type: 'object'
   additional-properties: false
   properties:

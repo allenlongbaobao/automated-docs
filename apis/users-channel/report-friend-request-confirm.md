@@ -3,7 +3,8 @@
 h2 this is req
 
 code:
-    request-report-friend-request-confirm =
+
+     request-report-friend-request-confirm =
   uid: 'uid-1'
 
 
@@ -12,7 +13,8 @@ code:
 h2 this is req
 
 code:
-    # 成功
+
+     # 成功
 response-report-friend-request-confirm =
   result: 'success'
   errors: []
@@ -23,7 +25,8 @@ response-report-friend-request-confirm =
 h2 this is req
 
 code:
-    report-friend-request-confirm-schema =
+
+     report-friend-request-confirm-schema =
   type: 'object'
   additional-properties: false
   properties:

@@ -3,7 +3,8 @@
 h2 this is req
 
 code:
-    request-report-circle-member-updated =
+
+     request-report-circle-member-updated =
   cid: 'cid-1'
 
 
@@ -12,7 +13,8 @@ code:
 h2 this is req
 
 code:
-    # 成功
+
+     # 成功
 response-report-circle-member-updated =
   result: 'success'
   errors: []
@@ -23,7 +25,8 @@ response-report-circle-member-updated =
 h2 this is req
 
 code:
-    report-circle-member-updated-schema =
+
+     report-circle-member-updated-schema =
   type: 'object'
   additional-properties: false
   properties:

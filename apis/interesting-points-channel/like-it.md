@@ -3,7 +3,8 @@
 h2 this is req
 
 code:
-    request-like-it =
+
+     request-like-it =
   type: 'interesting-point' # interesting-point | interesting-point-session | comment | reply
   id: 'xxx'
 
@@ -13,7 +14,8 @@ code:
 h2 this is req
 
 code:
-    response-like-it =
+
+     response-like-it =
   result: "success"
   errors: []
 
@@ -23,7 +25,8 @@ code:
 h2 this is req
 
 code:
-    like-it-schema =
+
+     like-it-schema =
   type: 'object'
   additional-properties: false
   properties:

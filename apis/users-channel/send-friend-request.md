@@ -3,7 +3,8 @@
 h2 this is req
 
 code:
-    request-send-friend-request =
+
+     request-send-friend-request =
   uid: 'uid-1'
   
 
@@ -14,7 +15,8 @@ code:
 h2 this is req
 
 code:
-    response-send-friend-request =
+
+     response-send-friend-request =
   result: "success"
   errors: []
 
@@ -24,7 +26,8 @@ code:
 h2 this is req
 
 code:
-    send-friend-request-schema =
+
+     send-friend-request-schema =
   type: 'object'
   additional-properties: false
   properties:

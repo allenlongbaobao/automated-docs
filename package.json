@@ -6,6 +6,7 @@
   "dependencies": {
     "express": "~3.0",
 		"walk": "~2.2.1",
+		"mdoc": "0.3.4",
     "underscore": "~1.5"
   },
   "repository": "https://github.com/ericwangqing/at-plus-server.git",

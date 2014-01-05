@@ -3,7 +3,8 @@
 h2 this is req
 
 code:
-    request-close-web-page =
+
+     request-close-web-page =
   lid: 'lid-1'
   url: 'http://www.baidu.com'
 
@@ -13,7 +14,8 @@ code:
 h2 this is req
 
 code:
-    response-close-web-page =
+
+     response-close-web-page =
   result: "success"
   errors: []
 
@@ -23,7 +25,8 @@ code:
 h2 this is req
 
 code:
-    close-web-page-schema =
+
+     close-web-page-schema =
   type: 'object'
   additional-properties: false
   properties:

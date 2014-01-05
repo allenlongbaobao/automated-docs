@@ -3,7 +3,8 @@
 h2 this is req
 
 code:
-    request-create-a-new-reply =
+
+     request-create-a-new-reply =
   type: 'ip-rpl'
   ipid: 'ipid-1'
   ipsid: 'ipsid-1'
@@ -19,7 +20,8 @@ code:
 h2 this is req
 
 code:
-    response-create-a-new-reply =
+
+     response-create-a-new-reply =
   result: "success"
   errors: []
   created-reply:
@@ -52,7 +54,8 @@ code:
 h2 this is req
 
 code:
-    create-a-new-reply-schema =
+
+     create-a-new-reply-schema =
   type: 'object'
   additional-properties: false
   properties:

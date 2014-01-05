@@ -3,7 +3,8 @@
 h2 this is req
 
 code:
-    request-retrieve-tags =
+
+     request-retrieve-tags =
   ipid: 'ipid-1'
   offset: 0
   count: 10
@@ -14,7 +15,8 @@ code:
 h2 this is req
 
 code:
-    response-retrieve-tags =
+
+     response-retrieve-tags =
   result: "success"
   errors: []
   tags: ['SYSU', '中大']
@@ -26,7 +28,8 @@ code:
 h2 this is req
 
 code:
-    retrieve-tags-schema =
+
+     retrieve-tags-schema =
   type: 'object'
   additional-properties: false
   properties:

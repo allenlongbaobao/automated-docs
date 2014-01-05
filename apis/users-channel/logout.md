@@ -3,7 +3,8 @@
 h2 this is req
 
 code:
-    request-logout = {}
+
+     request-logout = {}
 
 
 # this is this is req
@@ -11,7 +12,8 @@ code:
 h2 this is req
 
 code:
-    response-logout =
+
+     response-logout =
   result: 'success'
   errors: []
 
@@ -21,7 +23,8 @@ code:
 h2 this is req
 
 code:
-    logout-schema =
+
+     logout-schema =
   type: 'object'
   additional-properties: false
   properties:

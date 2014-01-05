@@ -3,7 +3,8 @@
 h2 this is req
 
 code:
-    request-remove-friend-list = 
+
+     request-remove-friend-list = 
   list-name: '不认识的人'
 
 
@@ -12,7 +13,8 @@ code:
 h2 this is req
 
 code:
-    response-remove-friend-list = 
+
+     response-remove-friend-list = 
   result: 'success'
   errors: []
 
@@ -23,7 +25,8 @@ code:
 h2 this is req
 
 code:
-    remove-friend-list-schema =
+
+     remove-friend-list-schema =
   type: 'object'
   additional-properties: false
   properties:

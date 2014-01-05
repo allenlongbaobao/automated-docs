@@ -3,7 +3,8 @@
 h2 this is req
 
 code:
-    request-retrieve-watching-users =
+
+     request-retrieve-watching-users =
   type: 'interesting-point' # interesting-point | interesting-point-session
   id: 'xxxx'
   offset: 1
@@ -15,7 +16,8 @@ code:
 h2 this is req
 
 code:
-    response-retrieve-watching-users =
+
+     response-retrieve-watching-users =
   result: "success"
   errors: []
   users: 
@@ -33,7 +35,8 @@ code:
 h2 this is req
 
 code:
-    retrieve-watching-users-schema =
+
+     retrieve-watching-users-schema =
   type: 'object'
   additional-properties: false
   properties:

@@ -3,7 +3,8 @@
 h2 this is req
 
 code:
-    request-retrieve-friends =
+
+     request-retrieve-friends =
   offset: 1
   count: 20
 
@@ -13,7 +14,8 @@ code:
 h2 this is req
 
 code:
-    # 成功
+
+     # 成功
 response-retrieve-friends =
   result: 'success'
   errors: []
@@ -33,7 +35,8 @@ response-retrieve-friends =
 h2 this is req
 
 code:
-    retrieve-friends-schema =
+
+     retrieve-friends-schema =
   type: 'object'
   additional-properties: false
   properties:

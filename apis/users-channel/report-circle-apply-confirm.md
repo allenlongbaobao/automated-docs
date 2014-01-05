@@ -3,7 +3,8 @@
 h2 this is req
 
 code:
-    request-report-circle-apply-confirm =
+
+     request-report-circle-apply-confirm =
   cid: 'cid-1'
 
 
@@ -13,7 +14,8 @@ code:
 h2 this is req
 
 code:
-    # 成功
+
+     # 成功
 response-report-circle-apply-confirm =
   result: 'success'
   errors: []
@@ -25,7 +27,8 @@ response-report-circle-apply-confirm =
 h2 this is req
 
 code:
-    report-circle-apply-confirm-schema =
+
+     report-circle-apply-confirm-schema =
   type: 'object'
   additional-properties: false
   properties:

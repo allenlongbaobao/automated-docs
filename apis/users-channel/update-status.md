@@ -3,7 +3,8 @@
 h2 this is req
 
 code:
-    request-update-status =
+
+     request-update-status =
   status: 'online' # online | offline | invisible
 
 
@@ -12,7 +13,8 @@ code:
 h2 this is req
 
 code:
-    response-update-status =
+
+     response-update-status =
   result: 'success'
   errors: []
 
@@ -22,7 +24,8 @@ code:
 h2 this is req
 
 code:
-    # JSON Schema
+
+     # JSON Schema
 update-status-schema =
   type: 'object'
   additional-properties: false

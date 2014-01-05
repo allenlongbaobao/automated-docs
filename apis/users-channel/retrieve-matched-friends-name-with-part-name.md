@@ -3,7 +3,8 @@
 h2 this is req
 
 code:
-    request-retrieve-matched-friends-name-with-part-name = 
+
+     request-retrieve-matched-friends-name-with-part-name = 
   part-name: '嘉'
 
 
@@ -12,7 +13,8 @@ code:
 h2 this is req
 
 code:
-    response-retrieve-matched-friends-name-with-part-name =
+
+     response-retrieve-matched-friends-name-with-part-name =
   result: 'success'
   errors: []
   matched-friends-name: ['嘉华', '嘉美']
@@ -24,7 +26,8 @@ code:
 h2 this is req
 
 code:
-    retrieve-matched-friends-name-with-part-name-schema =
+
+     retrieve-matched-friends-name-with-part-name-schema =
   type: 'object'
   additional-properties: false
   properties:

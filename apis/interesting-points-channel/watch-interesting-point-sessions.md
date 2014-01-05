@@ -3,7 +3,8 @@
 h2 this is req
 
 code:
-    request-watch-interesting-point-sessions =
+
+     request-watch-interesting-point-sessions =
   ipsids: ['ipsid-1', 'ipsid-2']
 
 
@@ -12,7 +13,8 @@ code:
 h2 this is req
 
 code:
-    response-watch-interesting-point-sessions =
+
+     response-watch-interesting-point-sessions =
   result: 'success'
   errors: []
 
@@ -22,7 +24,8 @@ code:
 h2 this is req
 
 code:
-    watch-interesting-point-sessions-schema =
+
+     watch-interesting-point-sessions-schema =
   type: 'object'
   additional-properties: false
   properties:

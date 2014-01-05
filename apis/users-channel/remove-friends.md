@@ -3,7 +3,8 @@
 h2 this is req
 
 code:
-    request-remove-friends =
+
+     request-remove-friends =
   uids: ['uid-1', 'uid-2']
 
 
@@ -12,7 +13,8 @@ code:
 h2 this is req
 
 code:
-    # 成功
+
+     # 成功
 response-remove-friends =
   result: 'success'
   errors: []
@@ -23,7 +25,8 @@ response-remove-friends =
 h2 this is req
 
 code:
-    remove-friends-schema =
+
+     remove-friends-schema =
   type: 'object'
   additional-properties: false
   properties:

@@ -3,7 +3,8 @@
 h2 this is req
 
 code:
-    request-open-web-page =
+
+     request-open-web-page =
   url: 'http://www.baidu.com'
 
 
@@ -12,7 +13,8 @@ code:
 h2 this is req
 
 code:
-    response-open-web-page =
+
+     response-open-web-page =
   result: 'success'
   errors: []
   opened-web-page: # 这里请注意！！！！！ 如果url找不到对应的location数据，直接返回 {}
@@ -37,7 +39,8 @@ code:
 h2 this is req
 
 code:
-    open-web-page-schema =
+
+     open-web-page-schema =
   type: 'object'
   additional-properties: false
   properties:

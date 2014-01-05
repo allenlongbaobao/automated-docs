@@ -3,7 +3,8 @@
 h2 this is req
 
 code:
-    request-handle-chat-room-invite =
+
+     request-handle-chat-room-invite =
   cid: 'cid-1'
   type: 'accepted' # rejected
 
@@ -13,7 +14,8 @@ code:
 h2 this is req
 
 code:
-    response-handle-chat-room-invite =
+
+     response-handle-chat-room-invite =
   result: 'success'
   errors: []
   new-chat-room: # 当accepted时才会返回的属性
@@ -31,7 +33,8 @@ code:
 h2 this is req
 
 code:
-    # JSON Schame
+
+     # JSON Schame
 handle-chat-room-invite-schema =
   type: 'object'
   additional-properties: false

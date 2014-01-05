@@ -3,7 +3,8 @@
 h2 this is req
 
 code:
-    request-open-interesting-point =
+
+     request-open-interesting-point =
   ipid: 'ipid-1'
   ipsid: 'ipsid-1'
 
@@ -13,7 +14,8 @@ code:
 h2 this is req
 
 code:
-    response-open-interesting-point =
+
+     response-open-interesting-point =
   result: "success"
   errors: []
 
@@ -23,7 +25,8 @@ code:
 h2 this is req
 
 code:
-    open-interesting-point-schema  =
+
+     open-interesting-point-schema  =
   type: 'object'
   additional-properties: false
   properties: 

@@ -3,7 +3,8 @@
 h2 this is req
 
 code:
-    request-retrieve-interesting-points =
+
+     request-retrieve-interesting-points =
   lid: 'lid-1'
   offset: 1
   count: 10
@@ -14,7 +15,8 @@ code:
 h2 this is req
 
 code:
-    response-retrieve-interesting-points =
+
+     response-retrieve-interesting-points =
   result: "success"
   errors: []
   interesting-points-count: 10
@@ -146,7 +148,8 @@ code:
 h2 this is req
 
 code:
-    retrieve-interesting-points-schema =
+
+     retrieve-interesting-points-schema =
   type: 'object'
   additional-properties: false
   properties:

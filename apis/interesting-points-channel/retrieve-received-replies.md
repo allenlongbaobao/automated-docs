@@ -3,7 +3,8 @@
 h2 this is req
 
 code:
-    request-retrieve-received-replies =
+
+     request-retrieve-received-replies =
   from: 'uid-1' # 如果为空，则获取所有用户的
   limit: 10
   skip: 0
@@ -15,7 +16,8 @@ code:
 h2 this is req
 
 code:
-    response-retrieve-received-replies =
+
+     response-retrieve-received-replies =
   result: "success"
   errors: []
   replies:
@@ -74,7 +76,8 @@ code:
 h2 this is req
 
 code:
-    retrieve-received-replies-schema =
+
+     retrieve-received-replies-schema =
   type: 'object'
   additional-properties: false
   properties:

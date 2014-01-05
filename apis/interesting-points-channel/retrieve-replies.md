@@ -3,7 +3,8 @@
 h2 this is req
 
 code:
-    request-retrieve-replies =
+
+     request-retrieve-replies =
   cid: 'xxxx'
   last-access-time: '2013-01-01 12:12:12'
   skip: 0
@@ -15,7 +16,8 @@ code:
 h2 this is req
 
 code:
-    response-retrieve-replies =
+
+     response-retrieve-replies =
   result: "success"
   errors: []
   replies:
@@ -53,7 +55,8 @@ code:
 h2 this is req
 
 code:
-    retrieve-replies-schema =
+
+     retrieve-replies-schema =
   type: 'object'
   additional-properties: false
   properties:

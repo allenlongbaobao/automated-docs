@@ -3,7 +3,8 @@
 h2 this is req
 
 code:
-    request-add-tags =
+
+     request-add-tags =
   ipid: 'ipid-1'
   tags: ['SYSU', '中大']
 
@@ -13,7 +14,8 @@ code:
 h2 this is req
 
 code:
-    response-add-tags =
+
+     response-add-tags =
   result: "success"
   errors: []
 
@@ -23,7 +25,8 @@ code:
 h2 this is req
 
 code:
-    add-tags-schema =
+
+     add-tags-schema =
   type: 'object'
   additional-properties: false
   properties:

@@ -3,7 +3,8 @@
 h2 this is req
 
 code:
-    create-private-chat-room-schema =
+
+     create-private-chat-room-schema =
   type: 'object'
   additional-properties: false
   properties:

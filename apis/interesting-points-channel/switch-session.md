@@ -3,7 +3,8 @@
 h2 this is req
 
 code:
-    request-switch-session =
+
+     request-switch-session =
   new-ipsid: 'ipsid-1'
   old-ipsid: 'ipsid-2'
 
@@ -13,7 +14,8 @@ code:
 h2 this is req
 
 code:
-    response-switch-session =
+
+     response-switch-session =
   result: "success"
   errors: []
 
@@ -23,7 +25,8 @@ code:
 h2 this is req
 
 code:
-    switch-session-schema =
+
+     switch-session-schema =
   type: 'object'
   additional-properties: false
   properties:

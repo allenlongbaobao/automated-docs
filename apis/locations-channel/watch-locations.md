@@ -3,7 +3,8 @@
 h2 this is req
 
 code:
-    request-watch-locations =
+
+     request-watch-locations =
   lids: ['lid-1', 'lid-2']
 
 
@@ -12,7 +13,8 @@ code:
 h2 this is req
 
 code:
-    response-watch-locations =
+
+     response-watch-locations =
   result: "success"
   errors: []
 
@@ -22,7 +24,8 @@ code:
 h2 this is req
 
 code:
-    watch-locations-schema =
+
+     watch-locations-schema =
   type: 'object'
   additional-properties: false
   properties:

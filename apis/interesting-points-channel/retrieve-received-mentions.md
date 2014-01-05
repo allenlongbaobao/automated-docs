@@ -3,7 +3,8 @@
 h2 this is req
 
 code:
-    request-retrieve-received-mentions =
+
+     request-retrieve-received-mentions =
   skip: 0
   limit: 10
   from: 'uid-1'
@@ -16,7 +17,8 @@ code:
 h2 this is req
 
 code:
-    response-retrieve-received-mentions =
+
+     response-retrieve-received-mentions =
   result: "success"
   errors: []
   unread-mentions:
@@ -86,7 +88,8 @@ code:
 h2 this is req
 
 code:
-    retrieve-received-mentions-schema =
+
+     retrieve-received-mentions-schema =
   type: 'object'
   additional-properties: false
   properties:

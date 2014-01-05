@@ -3,7 +3,8 @@
 h2 this is req
 
 code:
-    response-push-new-friend-request =
+
+     response-push-new-friend-request =
   _id: 'uid-1'
   username: '小东'
   gender: 'F' # M | F | U (不确定)

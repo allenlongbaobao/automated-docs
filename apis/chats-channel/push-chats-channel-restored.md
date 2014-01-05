@@ -3,7 +3,8 @@
 h2 this is req
 
 code:
-    response-push-chats-channel-restored =
+
+     response-push-chats-channel-restored =
   private-chats:
     * _id: 'cid-1'
       uid: 'uid-1'

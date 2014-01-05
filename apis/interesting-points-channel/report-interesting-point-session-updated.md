@@ -3,7 +3,8 @@
 h2 this is req
 
 code:
-    request-report-interesting-point-session-updated =
+
+     request-report-interesting-point-session-updated =
   ipid: 'ipid-1' # 注意：这里是兴趣点id！！！不是会话的id！！！
 
 
@@ -12,7 +13,8 @@ code:
 h2 this is req
 
 code:
-    response-report-interesting-point-session-updated =
+
+     response-report-interesting-point-session-updated =
   result: "success"
   errors: []
 
@@ -22,7 +24,8 @@ code:
 h2 this is req
 
 code:
-    report-interesting-point-session-updated-schema =
+
+     report-interesting-point-session-updated-schema =
   type: 'object'
   additional-properties: false
   properties: 

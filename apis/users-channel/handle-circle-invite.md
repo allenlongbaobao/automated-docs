@@ -3,7 +3,8 @@
 h2 this is req
 
 code:
-    request-handle-circle-invite =
+
+     request-handle-circle-invite =
   type: 'accepted' # rejected
   cid: 'cid-1'
 
@@ -13,7 +14,8 @@ code:
 h2 this is req
 
 code:
-    # 成功
+
+     # 成功
 response-handle-circle-invite =
   result: 'success'
   errors: []
@@ -28,7 +30,8 @@ response-handle-circle-invite =
 h2 this is req
 
 code:
-    handle-circle-invite-schema =
+
+     handle-circle-invite-schema =
   type: 'object'
   additional-properties: false
   properties:

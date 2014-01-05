@@ -3,7 +3,8 @@
 h2 this is req
 
 code:
-    request-rename-friend-list = 
+
+     request-rename-friend-list = 
   original-list-name: '大学同学'
   new-list-name: '大学软院同学'
 
@@ -13,7 +14,8 @@ code:
 h2 this is req
 
 code:
-    response-rename-friend-list =
+
+     response-rename-friend-list =
   result: 'success'
   errors: []
   
@@ -26,7 +28,8 @@ code:
 h2 this is req
 
 code:
-    rename-friend-list-schema =
+
+     rename-friend-list-schema =
   type: 'object'
   additional-properties: false
   properties:

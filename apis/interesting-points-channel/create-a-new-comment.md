@@ -3,7 +3,8 @@
 h2 this is req
 
 code:
-    request-create-a-new-comment =
+
+     request-create-a-new-comment =
   type: 'ips-msg' # 表示评论类型 
   ipid: 'ipid-1' # 兴趣点id
   ipsid: 'ipsid-1' # 要评论的兴趣点会话id
@@ -18,7 +19,8 @@ code:
 h2 this is req
 
 code:
-    response-create-a-new-comment =
+
+     response-create-a-new-comment =
   result: "success"
   errors: []
   created-comment:
@@ -56,7 +58,8 @@ code:
 h2 this is req
 
 code:
-    create-a-new-comment-schema =
+
+     create-a-new-comment-schema =
   type: 'object'
   additional-properties: false
   properties:

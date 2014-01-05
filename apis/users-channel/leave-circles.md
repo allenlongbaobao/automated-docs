@@ -3,7 +3,8 @@
 h2 this is req
 
 code:
-    request-leave-circles =
+
+     request-leave-circles =
   cids: ['cid-1', 'cid-2']
 
 
@@ -12,7 +13,8 @@ code:
 h2 this is req
 
 code:
-    # 成功
+
+     # 成功
 response-leave-circles =
   result: 'success'
   errors: []
@@ -23,7 +25,8 @@ response-leave-circles =
 h2 this is req
 
 code:
-    leave-circles-schema =
+
+     leave-circles-schema =
   type: 'object'
   additional-properties: false
   properties:

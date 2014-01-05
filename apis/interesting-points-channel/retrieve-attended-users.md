@@ -3,7 +3,8 @@
 h2 this is req
 
 code:
-    request-retrieve-attended-users =
+
+     request-retrieve-attended-users =
   type: 'interesting-point' # interesting-point | interesting-point-session
   id: 'xxxx'
   offset: 1
@@ -15,7 +16,8 @@ code:
 h2 this is req
 
 code:
-    response-retrieve-attended-users =
+
+     response-retrieve-attended-users =
   result: "success"
   errors: []
   users:
@@ -33,7 +35,8 @@ code:
 h2 this is req
 
 code:
-    retrieve-attended-users-schema =
+
+     retrieve-attended-users-schema =
   type: 'object'
   additional-properties: false
   properties:

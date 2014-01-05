@@ -3,7 +3,8 @@
 h2 this is req
 
 code:
-    request-handle-circle-apply =
+
+     request-handle-circle-apply =
   type: 'accepted' # rejeceted
   uid: 'uid-1'
   cid: 'cid-1'
@@ -14,7 +15,8 @@ code:
 h2 this is req
 
 code:
-    # 成功
+
+     # 成功
 response-handle-circle-apply =
   result: 'success'
   errors: []
@@ -32,7 +34,8 @@ response-handle-circle-apply =
 h2 this is req
 
 code:
-    handle-circle-apply-schema =
+
+     handle-circle-apply-schema =
   type: 'object'
   additional-properties: false
   properties:

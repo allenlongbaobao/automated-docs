@@ -3,7 +3,8 @@
 h2 this is req
 
 code:
-    # JSON Schema
+
+     # JSON Schema
 create-a-group-chat-room-schema =
   type: 'object'
   additional-properties: false

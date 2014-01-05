@@ -3,7 +3,8 @@
 h2 this is req
 
 code:
-    # 获取第11 - 20 条历史消息
+
+     # 获取第11 - 20 条历史消息
 request-retrieve-chat-history =
   cid: 'cid-1'
   skip: 10
@@ -15,7 +16,8 @@ request-retrieve-chat-history =
 h2 this is req
 
 code:
-    response-retrieve-chat-history =
+
+     response-retrieve-chat-history =
   result: 'success'
   errors: []
   chat-messages: # 实际上这里直接返回html片段可能更好一点，不过需要跟前端商量具体格式，这里还是先给出历史记录的基本信息
@@ -39,7 +41,8 @@ code:
 h2 this is req
 
 code:
-    retrieve-chat-history-schema =
+
+     retrieve-chat-history-schema =
   type: 'object'
   additional-properties: false
   properties:

@@ -3,7 +3,8 @@
 h2 this is req
 
 code:
-    response-push-user-presence-updated =
+
+     response-push-user-presence-updated =
   _id: 'uid-1'
   username: 'zhangsan'
   gender: 'F'

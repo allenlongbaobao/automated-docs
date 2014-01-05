@@ -3,7 +3,8 @@
 h2 this is req
 
 code:
-    request-handle-friend-request =
+
+     request-handle-friend-request =
   type: 'accepted' # rejected
   uid: 'uid-1'
 
@@ -13,7 +14,8 @@ code:
 h2 this is req
 
 code:
-    # 成功
+
+     # 成功
 response-handle-friend-request =
   result: 'success'
   errors: []
@@ -32,7 +34,8 @@ response-handle-friend-request =
 h2 this is req
 
 code:
-    handle-friend-request-schema =
+
+     handle-friend-request-schema =
   type: 'object'
   additional-properties: false
   properties:

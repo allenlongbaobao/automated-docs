@@ -3,7 +3,8 @@
 h2 this is req
 
 code:
-    request-retrieve-chat-room = 
+
+     request-retrieve-chat-room = 
   cid: 'cid-1'
 
 
@@ -12,7 +13,8 @@ code:
 h2 this is req
 
 code:
-    response-retrieve-chat-room =
+
+     response-retrieve-chat-room =
   result: 'success' 
   errors: []  
   chat-room:  # 成功时才会返回的属性
@@ -39,7 +41,8 @@ code:
 h2 this is req
 
 code:
-    retrieve-chat-room-schema = 
+
+     retrieve-chat-room-schema = 
   type: 'object'
   additional-properties: false
   properties:

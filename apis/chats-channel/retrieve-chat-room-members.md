@@ -3,7 +3,8 @@
 h2 this is req
 
 code:
-    request-retrieve-chat-room-members =
+
+     request-retrieve-chat-room-members =
   cid: 'cid-1' # 聊天室id
   offset: 1  # 查询对象偏移量
   count: 10  # 查询数量
@@ -14,7 +15,8 @@ code:
 h2 this is req
 
 code:
-    response-retrieve-chat-room-members =
+
+     response-retrieve-chat-room-members =
   result: 'success'
   errors: []
   members:
@@ -32,7 +34,8 @@ code:
 h2 this is req
 
 code:
-    # JSON Schema
+
+     # JSON Schema
 retrieve-chat-room-members-schema =
   type: 'object'
   additional-properties: false

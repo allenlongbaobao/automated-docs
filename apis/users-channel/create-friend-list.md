@@ -3,7 +3,8 @@
 h2 this is req
 
 code:
-    create-friend-list-schema =
+
+     create-friend-list-schema =
   type: 'object'
   additional-properties: false
   properties:

@@ -3,7 +3,8 @@
 h2 this is req
 
 code:
-    request-create-a-new-interesting-point-session =
+
+     request-create-a-new-interesting-point-session =
   ipid: 'ipid-1'
   title: '支持恒大的进来！！'
 
@@ -13,7 +14,8 @@ code:
 h2 this is req
 
 code:
-    response-create-a-new-interesting-point-session =
+
+     response-create-a-new-interesting-point-session =
   result: "success"
   errors: []
   created-interesting-point-session:
@@ -39,7 +41,8 @@ code:
 h2 this is req
 
 code:
-    create-a-new-interesting-point-session-schema =
+
+     create-a-new-interesting-point-session-schema =
   type: 'object'
   additional-properties: false
   properties:

@@ -3,7 +3,8 @@
 h2 this is req
 
 code:
-    request-report-new-chat-room-message =
+
+     request-report-new-chat-room-message =
   cid: 'cid-1'
 
 
@@ -12,7 +13,8 @@ code:
 h2 this is req
 
 code:
-    response-report-new-chat-room-message =
+
+     response-report-new-chat-room-message =
   result: 'success'
   errors: []
 
@@ -22,7 +24,8 @@ code:
 h2 this is req
 
 code:
-    report-new-chat-room-message-schema =
+
+     report-new-chat-room-message-schema =
   type: 'object'
   additional-properties: false
   properties:

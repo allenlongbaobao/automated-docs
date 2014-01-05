@@ -3,7 +3,8 @@
 h2 this is req
 
 code:
-    request-leave-chat-rooms =
+
+     request-leave-chat-rooms =
   cids: ['cid-1', 'cid-2']
 
 
@@ -12,7 +13,8 @@ code:
 h2 this is req
 
 code:
-    response-leave-chat-rooms =
+
+     response-leave-chat-rooms =
   result: 'success'
   errors: []
 

@@ -3,7 +3,8 @@
 h2 this is req
 
 code:
-    request-remove-replies =
+
+     request-remove-replies =
   rids: ['mid-1']
 
 
@@ -12,7 +13,8 @@ code:
 h2 this is req
 
 code:
-    response-remove-replies =
+
+     response-remove-replies =
   result: "success"
   errors: []
 
@@ -22,7 +24,8 @@ code:
 h2 this is req
 
 code:
-    remove-replies-schema =
+
+     remove-replies-schema =
   type: 'object'
   additional-properties: false
   properties:

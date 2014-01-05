@@ -3,7 +3,8 @@
 h2 this is req
 
 code:
-    retrieve-accepeted-friends = 
+
+     retrieve-accepeted-friends = 
   type: 'object'
   additional-properties: false
 

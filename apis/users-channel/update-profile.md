@@ -3,7 +3,8 @@
 h2 this is req
 
 code:
-    request-update-profile =
+
+     request-update-profile =
   username: 'Shin'
   gender: 'M' # F | M | U
   email: 'bossonchan@gmail.com'
@@ -16,7 +17,8 @@ code:
 h2 this is req
 
 code:
-    response-update-profile =
+
+     response-update-profile =
   result: 'success'
   errors: []
 
@@ -26,7 +28,8 @@ code:
 h2 this is req
 
 code:
-    # JSON Schema
+
+     # JSON Schema
 update-profile-schema =
   type: 'object'
   additional-properties: false

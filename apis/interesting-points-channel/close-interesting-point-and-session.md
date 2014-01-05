@@ -3,7 +3,8 @@
 h2 this is req
 
 code:
-    request-close-interesting-point-and-session =
+
+     request-close-interesting-point-and-session =
   ipid: 'ipid-1'
   ipsid: 'ipsid-1'
 
@@ -13,7 +14,8 @@ code:
 h2 this is req
 
 code:
-    response-close-interesting-point =
+
+     response-close-interesting-point =
   result: "success"
   errors: []
 
@@ -23,7 +25,8 @@ code:
 h2 this is req
 
 code:
-    close-interesting-point-schema =
+
+     close-interesting-point-schema =
   type: 'object'
   additional-properties: false
   properties:

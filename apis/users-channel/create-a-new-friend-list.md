@@ -3,7 +3,8 @@
 h2 this is req
 
 code:
-    request-create-a-new-friend-list = 
+
+     request-create-a-new-friend-list = 
   list-name: '大学同学'
 
 
@@ -12,7 +13,8 @@ code:
 h2 this is req
 
 code:
-    response-create-a-new-friend-list =
+
+     response-create-a-new-friend-list =
   result: 'success'
   errors: []
 

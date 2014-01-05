@@ -3,7 +3,8 @@
 h2 this is req
 
 code:
-    request-remove-comments =
+
+     request-remove-comments =
   cids: ['mid-1']
 
 
@@ -12,7 +13,8 @@ code:
 h2 this is req
 
 code:
-    response-remove-comments =
+
+     response-remove-comments =
   result: "success"
   errors: []
 
@@ -22,7 +24,8 @@ code:
 h2 this is req
 
 code:
-    remove-comments-schema =
+
+     remove-comments-schema =
   type: 'object'
   additional-properties: false
   properties:

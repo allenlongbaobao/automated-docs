@@ -3,7 +3,8 @@
 h2 this is req
 
 code:
-    request-watch-interesting-points =
+
+     request-watch-interesting-points =
   ipids: ['ipid-1', 'ipid-2']
 
 
@@ -12,7 +13,8 @@ code:
 h2 this is req
 
 code:
-    response-watch-interesting-points =
+
+     response-watch-interesting-points =
   result: 'success'
   errors: []
 
@@ -22,7 +24,8 @@ code:
 h2 this is req
 
 code:
-    watch-interesting-points-schema =
+
+     watch-interesting-points-schema =
   type: 'object'
   additional-properties: false
   properties:

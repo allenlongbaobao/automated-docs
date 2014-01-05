@@ -3,7 +3,8 @@
 h2 this is req
 
 code:
-    request-update-chat-room-signature =
+
+     request-update-chat-room-signature =
   cid: 'cid-1'
   signature: '更改后的签名'
 
@@ -13,7 +14,8 @@ code:
 h2 this is req
 
 code:
-    # 成功
+
+     # 成功
 response-update-chat-room-signature =
   result: 'success'
   errors: []
@@ -24,7 +26,8 @@ response-update-chat-room-signature =
 h2 this is req
 
 code:
-    request-update-chat-room-signature-schema =
+
+     request-update-chat-room-signature-schema =
   type: 'object'
   additional-properties: false
   properties:

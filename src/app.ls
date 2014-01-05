@@ -1,4 +1,6 @@
 require! ['fs', 'walk', 'path']
+require! './compiler' .compiler
+
 #md = require "node-markdown" .Markdown
 
 root-dir = path.join __dirname, '..'
@@ -40,7 +42,9 @@ write = !(file-name, file-str, callback)->
 
 write-into-api-file = !(channel, api-name, file-str, callback)->
   file-name = path.join apis-dir, channel, api-name + '.md'
-  write file-name, file-str, callback
+  (err, file-str)<-! compiler 'hello', {req: 'this is req', code: file-str}
+  console.log file-str, err
+  write file-name, err, callback
 
 req-res-walker = walk.walk req-res-direct
 req-res-walker.on 'file', !(root, file-state, next)->

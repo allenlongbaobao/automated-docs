@@ -3,7 +3,8 @@
 h2 this is req
 
 code:
-    retrieve-group-chat-room-schema =
+
+     retrieve-group-chat-room-schema =
   type: 'object'
   additional-properties: false
   properties:

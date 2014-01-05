@@ -3,7 +3,8 @@
 h2 this is req
 
 code:
-    request-retrieve-active-users =
+
+     request-retrieve-active-users =
   url: 'http://www.some.com'
   lid: 'lid-1'
 
@@ -13,7 +14,8 @@ code:
 h2 this is req
 
 code:
-    response-retrieve-active-users =
+
+     response-retrieve-active-users =
   result: "success"
   errors: []
   users:
@@ -31,7 +33,8 @@ code:
 h2 this is req
 
 code:
-    retrieve-active-users-schema =
+
+     retrieve-active-users-schema =
   type: 'object'
   additional-properties: false
   properties:

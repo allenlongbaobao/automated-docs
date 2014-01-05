@@ -3,7 +3,8 @@
 h2 this is req
 
 code:
-    request-unlike-it =
+
+     request-unlike-it =
   type: 'interesting-point' # interesting-point | interesting-point-session | comment | reply
   id: 'xxx'
 
@@ -13,7 +14,8 @@ code:
 h2 this is req
 
 code:
-    response-unlike-it =
+
+     response-unlike-it =
   result: "success"
   errors: []
 
@@ -23,7 +25,8 @@ code:
 h2 this is req
 
 code:
-    unlike-it-schema =
+
+     unlike-it-schema =
   type: 'object'
   additional-properties: false
   properties:

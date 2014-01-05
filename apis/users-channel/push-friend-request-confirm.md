@@ -3,7 +3,8 @@
 h2 this is req
 
 code:
-    response-push-friend-request-confirm =
+
+     response-push-friend-request-confirm =
   type: 'accepted' # rejected
   requested-user:
     _id: 'uid-2'

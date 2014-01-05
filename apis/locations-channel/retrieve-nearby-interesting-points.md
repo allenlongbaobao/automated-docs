@@ -3,7 +3,8 @@
 h2 this is req
 
 code:
-    request-retrieve-nearby-interesting-points =
+
+     request-retrieve-nearby-interesting-points =
   longitude: 123
   latitude: 123
   altitude: 123
@@ -14,7 +15,8 @@ code:
 h2 this is req
 
 code:
-    response-retrieve-nearby-interesting-points =
+
+     response-retrieve-nearby-interesting-points =
   result: "success"
   errors: []
   interesting-points-count: 10
@@ -78,7 +80,8 @@ code:
 h2 this is req
 
 code:
-    retrieve-nearby-interesting-points-schema =
+
+     retrieve-nearby-interesting-points-schema =
   type: 'object'
   additional-properties: false
   properties:

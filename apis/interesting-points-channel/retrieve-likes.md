@@ -3,7 +3,8 @@
 h2 this is req
 
 code:
-    request-retrieve-likes =
+
+     request-retrieve-likes =
   type: 'interesting-point' # interesting-point } interesting-point-session | comment | reply
   id: 'xxx'
   offset: 1
@@ -15,7 +16,8 @@ code:
 h2 this is req
 
 code:
-    response-retrieve-likes =
+
+     response-retrieve-likes =
   result: "success"
   errors: []
   users: 
@@ -33,7 +35,8 @@ code:
 h2 this is req
 
 code:
-    retrieve-likes-schema =
+
+     retrieve-likes-schema =
   type: 'object'
   additional-properties: false
   properties: 
