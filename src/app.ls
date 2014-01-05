@@ -1,15 +1,22 @@
 require! ['fs', 'walk', 'path']
 require! './compiler' .compiler
 
-#md = require "node-markdown" .Markdown
-
 root-dir = path.join __dirname, '..'
 apis-dir = path.join root-dir, 'apis'
-#template-dir = root-dir + '/test/helpers/api-template'
 req-res-direct         = path.join __dirname, '../test/fixtures/requests-responses'
 schema-direct          = path.join __dirname, '../test/fixtures/schema'
 
 fs.mkdir-sync root-dir + '/apis'
+file-data = {}
+check-file-is-req = (file-name)->
+  arr = file-name.split '-'
+  if arr[0] is 'request' then return true
+  else return false
+
+check-file-is-res = (file-name)->
+  arr = file-name.split '-'
+  if arr[0] is 'response' then return true
+  else return false
 
 get-schema-api-name = (file-name)->
   arr = file-name.split '-'
@@ -40,11 +47,23 @@ write = !(file-name, file-str, callback)->
   if err then console.log err
   callback!
 
-write-into-api-file = !(channel, api-name, file-str, callback)->
+add-req-into-file-str = (file-str)->
+  file-data.req-code := file-str
+
+add-res-into-file-str = (file-str)->
+  file-data.res-code := file-str
+
+add-schema-into-file-str = (file-str)->
+  file-data.schema-cod := file-str
+
+add-api-name-into-file-str = (api-name)->
+  file-data.api-name := api-name
+
+write-file-str-into-api-file = !(channel, api-name, fil-str, callback)->
   file-name = path.join apis-dir, channel, api-name + '.md'
-  (err, file-str)<-! compiler 'hello', {req: 'this is req', code: file-str}
-  console.log file-str, err
-  write file-name, err, callback
+  (err, file-str)<-! compiler 'hello', file-data
+  if err then console.log err
+  write file-name, file-str, callback
 
 req-res-walker = walk.walk req-res-direct
 req-res-walker.on 'file', !(root, file-state, next)->
@@ -52,8 +71,12 @@ req-res-walker.on 'file', !(root, file-state, next)->
   file-name = path.join root, file-state.name
   file-str = read file-name
   api-name = get-req-res-api-name file-state.name
-  <-! write-into-api-file channel, api-name, file-str
-  next!
+  if check-file-is-req file-state.name
+    add-req-into-file-str file-str
+    next!
+  if check-file-is-res file-state.name
+    add-res-into-file-str file-str
+    next!
 
 <-! req-res-walker.on 'end'
 schema-walker  = walk.walk schema-direct
@@ -62,8 +85,6 @@ schema-walker.on 'file', !(root, file-state, next)->
   file-name = path.join root, file-state.name
   file-str = read file-name
   api-name = get-schema-api-name file-state.name
-  console.log api-name
-  <-! write-into-api-file channel, api-name, file-str
+  add-api-name-into-file-str api-name
+  <-! write-file-str-into-api-file channel, api-name, file-str
   next!
-
-

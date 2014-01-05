@@ -40,7 +40,7 @@ module.exports = (grunt)->
     concurrent:
       target:
         tasks:
-          ['nodemon', 'watch:auto']
+          ['watch:auto', 'nodemon']
         options:
           logConcurrentOutput: true
   grunt.loadNpmTasks "grunt-livescript"
