@@ -1,4 +1,0 @@
-# Awesome Project
-
-This is just an example of how content will be pulled into the "index.html"
-file.
