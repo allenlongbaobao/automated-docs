@@ -8,7 +8,7 @@
 <%= reqCode %>
 </code></pre>
 
-### <%= apiname %> 响应报文
+### <%= apiName %> 响应报文
 <pre><code>
 <%= resCode %>
 </code></pre>
