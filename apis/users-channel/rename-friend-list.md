@@ -1,16 +1,36 @@
-### template 请求报文的 JSON Schema
+### rename-friend-list 请求报文的 JSON Schema
 <pre><code>
-schema-data
+rename-friend-list-schema =
+  type: 'object'
+  additional-properties: false
+  properties:
+    old-list-name :
+      description: '分组原名称'
+      type: 'string'
+      required: true
+    new-list-name:
+      description: '分组新名称'
+      type: 'string'
+      required: true
+
+
 </code></pre>
 
-### template 请求报文示例
+### rename-friend-list 请求报文示例
 <pre><code>
-req-data
+request-update-chat-room-signature =
+  cid: 'cid-1'
+  signature: '更改后的签名'
+
 </code></pre>
 
-### template 响应报文
+### rename-friend-list 响应报文
 <pre><code>
-res-data
+# 成功
+response-update-chat-room-signature =
+  result: 'success'
+  errors: []
+
 </code></pre>
 
 

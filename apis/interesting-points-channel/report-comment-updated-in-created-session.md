@@ -1,16 +1,31 @@
-### template 请求报文的 JSON Schema
+### report-comment-updated-in-created-session 请求报文的 JSON Schema
 <pre><code>
-schema-data
+report-comment-updated-in-created-session-schema =
+  type: 'object'
+  additional-properties: false
+  properties:
+    ipsid:
+      description: 'ȷ�ϵ��������ڵĻỰid'
+      type: 'string'
+      required: true
+
 </code></pre>
 
-### template 请求报文示例
+### report-comment-updated-in-created-session 请求报文示例
 <pre><code>
-req-data
+request-update-chat-room-signature =
+  cid: 'cid-1'
+  signature: '更改后的签名'
+
 </code></pre>
 
-### template 响应报文
+### report-comment-updated-in-created-session 响应报文
 <pre><code>
-res-data
+# 成功
+response-update-chat-room-signature =
+  result: 'success'
+  errors: []
+
 </code></pre>
 
 

@@ -1,16 +1,31 @@
-### template 请求报文的 JSON Schema
+### create-private-chat-room 请求报文的 JSON Schema
 <pre><code>
-schema-data
+create-private-chat-room-schema =
+  type: 'object'
+  additional-properties: false
+  properties:
+    uid:
+      description: '聊天对象的uid'
+      type: 'string'
+      required: true
+
 </code></pre>
 
-### template 请求报文示例
+### create-private-chat-room 请求报文示例
 <pre><code>
-req-data
+request-update-chat-room-signature =
+  cid: 'cid-1'
+  signature: '更改后的签名'
+
 </code></pre>
 
-### template 响应报文
+### create-private-chat-room 响应报文
 <pre><code>
-res-data
+# 成功
+response-update-chat-room-signature =
+  result: 'success'
+  errors: []
+
 </code></pre>
 
 
