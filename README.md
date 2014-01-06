@@ -9,7 +9,6 @@ automated-docs
 >   * request-you-api.js
 >   * response-you-api.js
 >   * you-api-schema.js
-
 >	* then run `grunt`, the program will create a file name 'apis', in which you can see your apis created in order 
 
 # contributes
