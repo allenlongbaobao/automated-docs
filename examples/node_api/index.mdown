@@ -1,3 +1,0 @@
-# Node.js v0.6.4 Manual & Documentation
-
-markdown files [copied from nodejs repository](https://github.com/joyent/node/tree/master/doc/api).
